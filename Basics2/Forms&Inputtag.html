@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>This is forms tutorial</h1>
+    <form action=" backhend.php">
+        <!-- Label tag creats a label so that you csn select it -->
+        <label for="name"> Name</label>
+        <div>
+            <input type="text" name="myName" id="name">
+        </div><br>
+        <div>
+            Role: <input type="text" name="myRole">
+        </div>
+        <div><br>
+            Email: <input type="email" name="myEmail">
+        </div>
+        <div><br>
+            <input type="date" name="myDate" id="">
+        </div>
+        <div><br>
+            Bonus : <input type="number" name="myBonus">
+        </div>
+        <div><br>
+            Eligibility : <input type="checkbox" name="checkbox" checked>
+        </div>
+        <div><br>
+            Gender : Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+        </div>
+        <div>
+            Write about yourself <br> <textarea name="myText" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="Ind">Indica</option>
+                <option value="Swf">Swift</option>
+            </select>
+            <br>
+        </div>
+        </div><br>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
